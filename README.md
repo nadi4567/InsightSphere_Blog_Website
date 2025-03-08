@@ -11,6 +11,7 @@
 - 📄 Dynamic post rendering using EJS templates
 
 ---
+![Uploading Screenshot (123).png…]()
 
 ## 🏗 Tech Stack
 - **Backend**: Node.js, Express.js
