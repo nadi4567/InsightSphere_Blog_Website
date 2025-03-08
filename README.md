@@ -1,7 +1,7 @@
 # 📖 InsightSphere - Blog Website
 
-**InsightSphere** is a simple yet powerful blog platform where users can create, edit, and delete posts effortlessly. Built using **Node.js, Express, EJS, and Bootstrap**, the website provides an interactive and user-friendly experience for bloggers and readers alike.
-
+**InsightSphere** is a simple yet powerful blog platform where users can create, edit, and delete posts effortlessly. Built using **Node.js, Express, EJS, and Bootstrap**.
+** The project prioritizes backend functionality over frontend design, making it ideal for learning CRUD operations, request handling, and dynamic content rendering.
 ---
 
 ## 🚀 Features
