@@ -24,10 +24,10 @@
 ## 🔧 Installation
 
 1. **Clone the Repository**  
---> git clone https://github.com/yourusername/insightsphere.git
+--> git clone https://github.com/nadi4567/InsightSphere_Blog_Website.git
 
 2. Navigate to the Project Directory
--> cd insightsphere
+-> cd InsightSphere_Blog_Website
 
 3. Install Dependencies
 -> npm install
