@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+   <!--body section-->
+    <div class="postDisplay">
+        <p id="createTle">Create Your Content</p>
+        <form class="postForm" action="/" method="POST">
+          <div class="lblIptContainer">
+             <label for="title">Title</label>
+             <input name="title" required>
+          </div>
+          
+          <div  class="lblIptContainer">
+             <label for="access">Access code</label>
+            <input name="accessCode" required type="number">
+          </div>
+          <div  class="lblIptContainer">
+             <label for="author">Author</label>
+            <input name="author" required>
+          </div>
+          <div  class="lblIptContainer">
+             <label for="content" >Content</label>
+             <textarea required rows="2" cols="50" name="content" required class="contentBox"></textarea>
+          </div>
+          <input type="submit" class="submitBtn">
+        </form>
+     </div>
+<%- include("partials/footer.ejs") %>

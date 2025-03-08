@@ -1,0 +1,53 @@
+<%- include("partials/header.ejs") %>
+    <!--body section-->
+    <div class="postDisplay">
+      <% if (posts.length>0) { %>
+        <% posts.forEach(post => { %>
+        <div class="postContainer">
+          <div class="postTitle"><%= post.title %></div>
+          <div class="postDate"><%= post.date%></div>
+          <div class="postContent">
+            <% if (post.content) { %>
+                <%= post.content.substring(0, 160) + "..." %>
+            <% } else { %>
+                No content available.
+            <% } %>
+        </div>
+        
+        
+          <div class="postBtnContainer">
+            <div class="author"><%= post.author  %></div>
+            <a class="seeMore" href="/posts/<%= post.postId %>">see more</a>
+         </div>
+        </div>
+        <% }) %>
+      <% } else{%>
+        <div class="noContentContainer">
+          <p class="noContent"> There is no content here yet! Create your own content 📝</p>
+        </div>
+        <% } %>
+        <!-- <div class="postContainer">
+         <div class="postTitle">The Power of Deep Work: Enhancing Focus and Concentration</div>
+         <div class="postDate">March 4, 2024</div>
+         <div class="postContent">In today's age of constant connectivity, maintaining focus and concentration can be challenging. Deep work is a concept that emphasizes uninterrupted, concentrated work on a single task.
+             By minimizing distractions, such as social media notifications or</div>
+         <div class="postBtnContainer">
+            <div class="author">Michael Thompson</div>
+            <a class="seeMore" href="./see">see more</a>
+         </div>
+       </div> -->
+       <!--
+       <div class="postContainer">
+        <div class="postTitle">The Power of Deep Work: Enhancing Focus and Concentration</div>
+        <div class="postDate">March 4, 2024</div>
+        <div class="postContent">In today's age of constant connectivity, maintaining focus and concentration can be challenging. Deep work is a concept that emphasizes uninterrupted, concentrated work on a single task.
+            By minimizing distractions, such as social media notifications or</div>
+        <div class="postBtnContainer">
+           <div class="author">Michael Thompson</div>
+           <a class="seeMore" href="./see">see more</a>
+        </div>
+      </div> -->
+    </div>
+<%- include("partials/footer.ejs") %>
+
+    

@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+    <!--body section-->
+    <div class="postDisplay">
+        <div class="accessContainer">
+            <p class="accessTle">Please Enter Access Code To Delete Your Post</p>
+            <form class="accessForm" action="/delete_access/<%= post.postId %>" method="POST">
+                <input class="codeIpt" name="accessCode" type="number" placeholder="access code">
+                <input class="codeConfirm" type="submit" value="Confirm">
+            </form>
+        </div>
+        
+        
+    </div>
+<%- include("partials/footer.ejs") %>

@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+  overflow-x: hidden;
+
+}
+.navContainer{
+    background-color: #66785F;
+
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.lt_nav{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+.rt_nav{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+.inputSch{
+    width: 100%;
+    height: 100%;
+    outline: none;
+    padding: 4px;
+    border-radius: 8px;
+    border: none;
+
+}
+.searchMain{
+    position: relative;
+    width: 300px;
+    height: 35px;
+}
+.bi-search{
+    position: absolute;
+    right: 10px;
+    top: 7px;
+}
+.navPage{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+}
+.inputSch:hover{
+    
+    border: 2px solid #285e4b;
+    transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    box-shadow: 0 0 8px rgba(74, 144, 226, 0.5); /* Soft glow effect */
+
+}
+.inputSch::placeholder{
+    
+    padding-left: 20px;
+}
+.blogIcon{
+    font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 1.6rem;
+}
+.createPtCtn{
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: black;
+    background-color:whitesmoke;
+    padding:6px 10px;
+    border-radius: 3px;
+    height: 35px;
+
+     box-sizing: border-box;
+}
+.createPtCtn:hover{
+    background-color: rgb(198, 203, 207);
+}
+.bi-bookmark-plus-fill{
+    margin-left: 4px;
+}
+.postDisplay{
+    background-color: #3e5144;
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100vh;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.noContent{
+  font-size: 1.3rem;
+  margin-top: -100px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: white;
+}
+
+.aboutParag{
+    font-size: 1.2rem;
+    color: white;
+    width: 90%;
+    text-indent: 40px;
+    text-align: justify;
+}
+#aboutTle{
+    color: white;
+    font-family: "Sigmar", serif;
+}
+.postContainer{
+    width: 60%;
+    border: 2px solid rgb(186, 187, 186);
+    background-color: #2C3930;
+    border-radius: 8px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.postTitle{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+.postDate{
+    font-weight: 10;
+    font-size: small;
+    font-style: italic;
+}
+.postBtnContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+}
+.author{
+    font-family: cursive;
+
+}
+.seeMore{
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    padding: 6px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.seeMore:hover{
+    background-color: rgb(176, 174, 174);
+}
+footer{
+    background-color: #2C3930;
+}
+.postForm{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+.lblIptContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.lblIptContainer input{
+    width: 80%;
+    height: 35px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 4px;
+}
+#createTle{
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: "Sigmar", serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 0;
+}
+.contentBox{
+    width: 80%;
+    border-radius: 5px;
+
+    padding: 10px;
+    outline: none;
+
+}
+.contentBox:focus{
+    min-height: 200px;
+
+}
+.submitBtn{
+    align-self: center;
+    padding: 4px 25px;
+    border-radius: 5px;
+    outline: 1px solid #66785F;
+    border: none;
+}
+.submitBtn:hover{
+    background-color: #2C3930;
+    color: white;
+    
+}
+.postSeeContainer{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+
+}
+.postChangeContainer{
+    display: flex;
+    align-items: center;
+    gap: 1.3rem;
+    justify-content: flex-end;
+}
+.postChangeContainer .edit{
+    font-size: 1.1rem;
+    color: whitesmoke;
+    text-decoration: none;
+    background-color: #66785F;
+    padding: 1px 20px;
+    display: flex;
+    align-items: center;
+    height: 44px;
+    border-radius: 4px;
+}
+.delete{
+    text-decoration: none;
+    color: white;
+}
+.postChangeContainer .trashIcn{
+    font-size: 25px;
+    background-color: rgb(157, 42, 42);
+    padding: 1px 6px;
+    border-radius: 4px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+.accessContainer{
+    margin-top: -120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.accessTle{
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: 'Courier New', Courier, monospace;
+}
+.accessForm{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2rem;
+    width: 35%;
+    
+}
+.codeIpt{
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    box-shadow: 0px 0px 0px 2px transparent;
+    animation: borderAnimation 4s infinite linear;
+}
+@keyframes  borderAnimation{
+   0%{
+    box-shadow: 1px 0 0 1px #33ccff;
+   }
+   25%{
+    box-shadow: 0 -1px 0 0px #99ff66;
+   }
+   50%{
+    box-shadow: -1px 0 0 2px #33ccff;
+   }
+   100%{
+    box-shadow: 0 1px 0 0px #33ccff;
+   }
+}
+.codeConfirm{
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #2C3930;
+    color: white;
+    font-size: 1.1rem;
+}
+.codeConfirm:hover{
+    background-color: rgb(234, 232, 232);
+    color: black;
+}
