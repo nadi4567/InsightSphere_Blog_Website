@@ -39,20 +39,20 @@
 -> Visit http://localhost:3000 to access the blog.
 
 📂 Project Structure
-/insightsphere
-│-- /public           # Static assets (CSS, images)
-│-- /views            # EJS templates (index.ejs, post.ejs, content.ejs, etc..)
-│-- /partials         # Reusable UI components (header, footer)
-│-- index.js         # Main server file
-│-- package.json      # Dependencies and scripts
-│-- README.md         # Project documentation
+- /insightsphere
+- │-- /public           # Static assets (CSS, images)
+- │-- /views            # EJS templates (index.ejs, post.ejs, content.ejs, etc..)
+- │-- /partials         # Reusable UI components (header, footer)
+- │-- index.js         # Main server file
+- │-- package.json      # Dependencies and scripts
+- │-- README.md         # Project documentation
 
 
 🛠 Future Enhancements
-🔐 User authentication (login/signup)
-💾 Database integration (MongoDB)
-💬 Commenting system
-🔎 Search and filtering options
+- 🔐 User authentication (login/signup)
+- 💾 Database integration (MongoDB)
+- 💬 Commenting system
+- 🔎 Search and filtering options
 
 
    
