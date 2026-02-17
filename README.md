@@ -3,6 +3,15 @@
 **InsightSphere** is a simple yet powerful blog platform where users can create, edit, and delete posts effortlessly. Built using **Node.js, Express, EJS, and Bootstrap**.
 ** The project prioritizes backend functionality over frontend design, making it ideal for learning CRUD operations, request handling, and dynamic content rendering.
 ---
+## 🎨 Development / Design Updates
+
+The project now has a **`testing` branch** where we are experimenting with **new design themes and color schemes**.  
+- Current focus: Updating the frontend color palette and UI styling.  
+- This branch is for testing changes before merging them into the main branch.  
+- Goal: Improve visual appeal while keeping the backend functionality intact.
+
+> Note: The `main` branch still retains the original blue theme.
+
 
 ## 🚀 Features
 - 📝 Create and publish blog posts
